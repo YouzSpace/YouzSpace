@@ -10,7 +10,7 @@
 
 独立开发者，做能上线的系统。
 
-主栈 PHP（Laravel）+ Vue 3，Java / Spring Boot 用于需要它的场景。习惯把一件事从数据库设计、接口、前端做到 Docker 部署和线上运维，一个人完成闭环。
+主栈 PHP（Laravel）+ Vue 3。Java 写过 Swing + JDBC 的桌面应用，Spring Boot 在补。习惯把一件事从数据库设计、接口、前端做到 Docker 部署和线上运维，一个人完成闭环。
 
 不做 Demo，交付的是能长期跑、能升级、出问题能定位的东西。
 
@@ -38,9 +38,9 @@
 
 ### [Dynamic-QR-Management-System](https://github.com/YouzSpace/Dynamic-QR-Management-System)
 
-动态二维码管理，支持内容变更后二维码不变，带后台管理与访问统计。
+微信活码管理。固定链接的二维码可以随时换内容，支持可视化编辑、5 种主题 3 套模板、历史回滚、PV 统计。纯 PHP 实现，不需要数据库，上传即用。
 
-`PHP` `MySQL`
+`PHP` `JSON 文件存储`
 
 ---
 
@@ -48,9 +48,9 @@
 
 | 层 | 使用 |
 |---|---|
-| 后端 | PHP 8.3 / Laravel 13、Java / Spring Boot 3 |
+| 后端 | PHP 8.3 / Laravel 13；Java（Swing + JDBC） |
 | 前端 | Vue 3、Vite、Tailwind CSS、Pinia |
-| 数据 | MySQL、Redis、文件存储方案 |
+| 数据 | MySQL、JSON 文件存储 |
 | 部署 | Docker、Nginx、Linux、systemd、队列守护 |
 | 集成 | 第三方 API 对接、支付网关、Ed25519 签名（sodium） |
 
