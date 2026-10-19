@@ -67,5 +67,5 @@
 
 ## 联系
 
-- 站点：[app.zes.one](https://app.zes.one) · [store.zes.one](https://store.zes.one)
+- 站点：[zes.one](https://zes.one)
 - 接受系统开发、后端接口、部署运维类合作
